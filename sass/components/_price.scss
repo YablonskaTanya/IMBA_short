@@ -1,0 +1,60 @@
+.price {
+  margin-top: 40px;
+}
+
+.price-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.price-title {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.price-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-item {
+  position: relative;
+}
+
+.price-before {
+  font-size: 22px;
+  line-height: 33px;
+  color: $accent-grey-color;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: -10px;
+    width: 111px;
+    height: 1px;
+    background: $accent-grey-color;
+  }
+}
+
+.price-before-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.price-after {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.price-sup {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+sup {
+  top: -1.3em;
+}

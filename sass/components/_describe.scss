@@ -1,0 +1,35 @@
+.describe-list {
+  margin-left: 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.describe-item {
+  position: relative;
+}
+
+.describe-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    left: -40px;
+    width: 43px;
+    height: 1px;
+    background: $accent-color;
+
+    transform: rotate(-90deg);
+  }
+}
+
+.describe-title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}

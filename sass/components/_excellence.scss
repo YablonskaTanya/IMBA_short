@@ -1,0 +1,26 @@
+.excellence-list {
+  display: flex;
+  gap: 10px;
+}
+
+.excellence-item {
+  padding: 5px 20px;
+  border-radius: 30px;
+
+  &:first-child {
+    background-color: #59f97c;
+    max-width: 103px;
+  }
+
+  &:last-child {
+    background-color: #edc407;
+    max-width: 138px;
+  }
+}
+
+.excellence-text {
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
