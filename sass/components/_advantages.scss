@@ -6,12 +6,18 @@
   margin-top: 30px;
 }
 
-.advantages-item:first-child {
-  max-width: 158px;
-}
+.advantages-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 
-.advantages-item:last-child {
-  max-width: 198px;
+  &:first-child {
+    max-width: 178px;
+  }
+
+  &:last-child {
+    max-width: 218px;
+  }
 }
 
 .advantages-text {
