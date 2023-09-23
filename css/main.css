@@ -331,7 +331,7 @@ a {
   gap: 25px;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1919px) {
   .nav-container {
     display: none;
   }
