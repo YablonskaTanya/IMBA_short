@@ -330,6 +330,11 @@ a {
   display: flex;
   gap: 25px;
 }
+@media screen and (min-width: 1920px) {
+  .btn-container {
+    gap: 0;
+  }
+}
 
 @media screen and (max-width: 1919px) {
   .nav-container {
