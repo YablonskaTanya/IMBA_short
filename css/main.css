@@ -426,8 +426,8 @@ a {
 }
 @media screen and (min-width: 1920px) {
   .hero-overlay {
-    background-image: url("../images/Hero/course-1920.png"), url("../images/Hero/gradient-1920.png"), url("../images/Hero/gradient-bottom-1920.png"), url("../images/Hero/overlay-1920.jpg");
     background-position: left 375px top 160px, left 375px top, bottom right, top right;
+    background-image: url("../images/Hero/course-1920.png"), url("../images/Hero/gradient-1920.png"), url("../images/Hero/gradient-bottom-1920.png"), url("../images/Hero/overlay-1920.jpg");
   }
 }
 
@@ -683,7 +683,7 @@ sup {
 }
 @media screen and (min-width: 1920px) {
   .about-container {
-    padding: 200px 599px;
+    padding: 160px 599px;
   }
 }
 
