@@ -422,11 +422,11 @@ a {
   margin-right: auto;
   background-repeat: no-repeat;
   background-position: left 0px top 220px, top, top;
-  background-image: url("/images/Hero/course-375.png"), url("/images/Hero/gradient-375.png"), url("/images/Hero/overlay-375.jpg");
+  background-image: url("../images/Hero/course-375.png"), url("../images/Hero/gradient-375.png"), url("../images/Hero/overlay-375.jpg");
 }
 @media screen and (min-width: 1920px) {
   .hero-overlay {
-    background-image: url("/images/Hero/course-1920.png"), url("/images/Hero/gradient-1920.png"), url("/images/Hero/gradient-bottom-1920.png"), url("/images/Hero/overlay-1920.jpg");
+    background-image: url("../images/Hero/course-1920.png"), url("../images/Hero/gradient-1920.png"), url("../images/Hero/gradient-bottom-1920.png"), url("../images/Hero/overlay-1920.jpg");
     background-position: left 375px top 160px, left 375px top, bottom right, top right;
   }
 }
