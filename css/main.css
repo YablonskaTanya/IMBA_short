@@ -362,14 +362,14 @@ a {
   line-height: 24px;
 }
 
-.burger-btn {
+.button-menu {
   background-color: transparent;
   border: none;
   margin-right: auto;
   cursor: pointer;
 }
 @media screen and (min-width: 1920px) {
-  .burger-btn {
+  .button-menu {
     display: none;
   }
 }
