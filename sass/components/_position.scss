@@ -1,0 +1,9 @@
+.position-container {
+  @media screen and (min-width: 1920px) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 50px;
+  }
+}
