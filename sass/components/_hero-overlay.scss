@@ -2,8 +2,11 @@
   background-color: $secondary-bg-color;
   color: $accent-text-color;
   width: 375px;
-  height: 1001px;
   position: relative;
+
+  @media screen and (min-width: 1920px) {
+    width: 1920px;
+  }
 }
 
 .hero-overlay {
@@ -11,10 +14,19 @@
   margin-left: auto;
   margin-right: auto;
 
+  background-repeat: no-repeat;
+  background-position: left 0px top 220px, top, top;
+
   background-image: url("/images/Hero/course-375.png"),
     url("/images/Hero/gradient-375.png"), url("/images/Hero/overlay-375.jpg");
 
-  background-repeat: no-repeat;
-  background-position: left 0px top 220px, top, top;
+  @media screen and (min-width: 1920px) {
+    background-image: url("/images/Hero/course-1920.png"),
+      url("/images/Hero/gradient-1920.png"),
+      url("/images/Hero/gradient-bottom-1920.png"),
+      url("/images/Hero/overlay-1920.jpg");
+    background-position: left 375px top 160px, left 375px top, bottom right,
+      top right;
+  }
   //   background-size: cover;
 }

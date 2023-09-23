@@ -1,9 +1,12 @@
 .describe-list {
-  margin-left: 20px;
-  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+
+  @media screen and (max-width: 1919px) {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
 }
 
 .describe-item {

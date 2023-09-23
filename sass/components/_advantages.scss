@@ -13,10 +13,18 @@
 
   &:first-child {
     max-width: 178px;
+
+    @media screen and (min-width: 1920px) {
+      max-width: 400px;
+    }
   }
 
   &:last-child {
     max-width: 218px;
+
+    @media screen and (min-width: 1920px) {
+      max-width: 400px;
+    }
   }
 }
 

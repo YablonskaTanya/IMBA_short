@@ -4,4 +4,14 @@
   cursor: pointer;
 
   font-size: 14px;
+
+  @media screen and (min-width: 1920px) {
+    background-color: $secondary-bg-color;
+    color: $accent-text-color;
+    padding: 15px 42px;
+    border-radius: 15px;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
